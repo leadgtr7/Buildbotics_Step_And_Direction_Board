@@ -29,7 +29,7 @@ You will need to solder in headers to the bbctrl board to make step and directio
 
 You will also need to make a harness to connect the 10 pins on the bbctrl to the step and direction board. If you aren't comfortable crimping your own harness you could use something like this (https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GCY6CH7/ref=sr_1_3?keywords=header%2Bwire&qid=1579895256&sr=8-3&th=1) for your harness.
 
-#### PCB Construction
+### PCB Construction
 If you would like to mill your own PCB I have provide a FlatCAM project as well as gCode files (https://github.com/leadgtr7/Buildbotics_Step_And_Direction_Board/tree/master/Step_Direction_Board_v7/gCode). You will need a 0.5mm endmill (https://www.amazon.com/gp/product/B00SMDOUPS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) as well as a 1mm endmill (https://www.amazon.com/gp/product/B07PY5Q6B6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). If you want to do a solder mask than wegstr on youtube has quite a good set of videos on how to do that. I will say it is difficult to get this all right and you may want to have the board professionally made. You can find the gerber outputs here (https://github.com/leadgtr7/Buildbotics_Step_And_Direction_Board/tree/master/Step_Direction_Board_v7/outputs).
 
 I would suspect that you could still solder this board without a mask but i think it would be rather difficult.
