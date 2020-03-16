@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Step_Direction_Board-rescue)(type Legacy)(uri ${KIPRJMOD}/Step_Direction_Board-rescue.lib)(options "")(descr ""))
+)
