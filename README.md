@@ -6,7 +6,7 @@ This is a step and direction breakout board and level shifter for the awesome Bu
 
 This board has been tested with the CL57Y closed loop stepper driver (https://www.omc-stepperonline.com/closed-loop-stepper-driver/y-series-closed-loop-stepper-driver-0-7-0a-24-50vdc-for-nema-17-23-24-stepper-motor.html).
 
-I suspect that it will work with most drivers that have a minimum pulse width of 2.5uS even though the buildbotics control has a puse width of 2 uS it just seems to work.
+I suspect that it will work with most drivers that have a minimum pulse width of 2.5uS even though the buildbotics control has a pulse width of 2 uS it just seems to work.
 
 This board involves some small surface mount components (SOIC-8) so soldering skills are a must!
 
@@ -14,14 +14,14 @@ This board involves some small surface mount components (SOIC-8) so soldering sk
 
 | Qty	| P/N	| Digikey Link |
 | ---- | ---- | ---- | 
-| 4x	| 10127721-041LF	| https://www.digikey.com/product-detail/en/amphenol-icc-fci/10127721-041LF/609-4859-ND/4996215 |
 |8x	|CC0402KRX7R6BB104	|https://www.digikey.com/product-detail/en/yageo/CC0402KRX7R6BB104/311-1345-1-ND/2103129|
 |4x	|SN75451BDR	|https://www.digikey.com/product-detail/en/texas-instruments/SN75451BDR/296-14960-1-ND/562591|
 |10x	|Generic Header Pins 2.54mm spacing	|https://www.amazon.com/MCIGICM-Header-2-45mm-Arduino-Connector/dp/B07PKKY8BX/ref=sr_1_4?keywords=header+pins&qid=1579894443&sr=8-4|
 |2x	|PCB-MB-01 or Printed Standoff	|https://www.digikey.com/product-detail/en/essentra-components/PCB-MB-01/RPC1760-ND/393158|
 |4x |3 pin plugable terminal blocks 3.81mm spacing |https://www.amazon.com/gp/product/B07SVNGBZ7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1|
+|4x |0805 0.1uF Cap|https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CML0805Y5V104ZT50V/738-CML0805Y5V104ZT50VCT-ND/10660252|
 
-If you have access to a 3d printer you can print the modified standoffs (https://github.com/leadgtr7/Buildbotics_Step_And_Direction_Board/blob/master/Step_Direction_Board_v7/outputs/m3_moded_block.stl). These standoffs are a little more low profile.
+If you have access to a 3d printer you can print the modified standoffs (https://github.com/leadgtr7/Buildbotics_Step_And_Direction_Board/blob/master/Mechanical/m3_moded_block.stl). These standoffs are a little more low profile.
 
 ### Buildbotics PCB Modifications
 You will need to solder in headers to the bbctrl board to make step and direction available as well as a 2 pin header with 5v and Ground. This will vary based on the version of your control board. You can find the schematics for the differnt revs here (https://github.com/buildbotics/bbctrl-pcb/tree/master/doc). For my controller (rev 8) you can see below for the locations.
@@ -31,7 +31,7 @@ You will need to solder in headers to the bbctrl board to make step and directio
 You will also need to make a harness to connect the 10 pins on the bbctrl to the step and direction board. If you aren't comfortable crimping your own harness you could use something like this (https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GCY6CH7/ref=sr_1_3?keywords=header%2Bwire&qid=1579895256&sr=8-3&th=1) for your harness.
 
 ### PCB Construction
-If you would like to mill your own PCB I have provide a FlatCAM project as well as gCode files (https://github.com/leadgtr7/Buildbotics_Step_And_Direction_Board/tree/master/Step_Direction_Board_v7/gCode). You will need a 0.5mm endmill (https://www.amazon.com/gp/product/B00SMDOUPS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) as well as a 1mm endmill (https://www.amazon.com/gp/product/B07PY5Q6B6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). If you want to do a solder mask than wegstr on youtube has quite a good set of videos on how to do that. I will say it is difficult to get this all right and you may want to have the board professionally made. You can find the gerber outputs here (https://github.com/leadgtr7/Buildbotics_Step_And_Direction_Board/tree/master/Step_Direction_Board_v7/outputs).
+If you would like to mill your own PCB I have provide a FlatCAM project as well as gCode files in the Mechanical Folder. You will need a 0.5mm endmill (https://www.amazon.com/gp/product/B00SMDOUPS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) as well as a 1mm endmill (https://www.amazon.com/gp/product/B07PY5Q6B6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). If you want to do a solder mask than wegstr on youtube has quite a good set of videos on how to do that. I will say it is difficult to get this all right and you may want to have the board professionally made. You can find the gerber outputs here (https://github.com/leadgtr7/Buildbotics_Step_And_Direction_Board/tree/master/kiCad/outputs).
 
 I would suspect that you could still solder this board without a mask but i think it would be rather difficult.
 
