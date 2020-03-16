@@ -14,9 +14,8 @@ This board involves some small surface mount components (SOIC-8) so soldering sk
 
 | Qty	| P/N	| Digikey Link |
 | ---- | ---- | ---- | 
-|8x	|CC0402KRX7R6BB104	|https://www.digikey.com/product-detail/en/yageo/CC0402KRX7R6BB104/311-1345-1-ND/2103129|
 |4x	|SN75451BDR	|https://www.digikey.com/product-detail/en/texas-instruments/SN75451BDR/296-14960-1-ND/562591|
-|10x	|Generic Header Pins 2.54mm spacing	|https://www.amazon.com/MCIGICM-Header-2-45mm-Arduino-Connector/dp/B07PKKY8BX/ref=sr_1_4?keywords=header+pins&qid=1579894443&sr=8-4|
+|12x	|Generic Header Pins 2.54mm spacing	|https://www.amazon.com/MCIGICM-Header-2-45mm-Arduino-Connector/dp/B07PKKY8BX/ref=sr_1_4?keywords=header+pins&qid=1579894443&sr=8-4|
 |2x	|PCB-MB-01 or Printed Standoff	|https://www.digikey.com/product-detail/en/essentra-components/PCB-MB-01/RPC1760-ND/393158|
 |4x |3 pin plugable terminal blocks 3.81mm spacing |https://www.amazon.com/gp/product/B07SVNGBZ7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1|
 |4x |0805 0.1uF Cap|https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CML0805Y5V104ZT50V/738-CML0805Y5V104ZT50VCT-ND/10660252|
