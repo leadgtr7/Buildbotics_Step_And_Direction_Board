@@ -13,26 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 6900 3400 2    50   Input ~ 0
+Text GLabel 7000 3400 2    50   Input ~ 0
 5v
 Text GLabel 4700 3700 0    50   Input ~ 0
 GND
-$Comp
-L Connector_Generic:Conn_01x02 SDI?
-U 1 1 5E2B6828
-P 4000 3150
-AR Path="/5E2AD7E2/5E2B6828" Ref="SDI?"  Part="1" 
-AR Path="/5E29E27E/5E2B6828" Ref="SDI0"  Part="1" 
-AR Path="/5E2BED6F/5E2B6828" Ref="SDI1"  Part="1" 
-AR Path="/5E2BEDEA/5E2B6828" Ref="SDI2"  Part="1" 
-AR Path="/5E2BEE96/5E2B6828" Ref="SDI3"  Part="1" 
-F 0 "SDI0" H 4150 3100 50  0000 C CNN
-F 1 "Conn_01x02" H 4080 3051 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 4000 3150 50  0001 C CNN
-F 3 "~" H 4000 3150 50  0001 C CNN
-	1    4000 3150
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4200 3150 4400 3150
 Text GLabel 8150 4000 0    50   Input ~ 0
@@ -98,4 +82,28 @@ F 3 "~" H 8350 4000 50  0001 C CNN
 	1    8350 4000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C0
+U 1 1 5E6F8E11
+P 6900 3250
+AR Path="/5E29E27E/5E6F8E11" Ref="C0"  Part="1" 
+AR Path="/5E2BED6F/5E6F8E11" Ref="C1"  Part="1" 
+AR Path="/5E2BEDEA/5E6F8E11" Ref="C2"  Part="1" 
+AR Path="/5E2BEE96/5E6F8E11" Ref="C3"  Part="1" 
+F 0 "C0" H 7015 3296 50  0000 L CNN
+F 1 "0.1uF" H 7015 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6938 3100 50  0001 C CNN
+F 3 "~" H 6900 3250 50  0001 C CNN
+	1    6900 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3400 7000 3400
+Connection ~ 6900 3400
+Text GLabel 6900 3100 0    50   Input ~ 0
+GND
+Text HLabel 4200 3150 0    50   Input ~ 0
+in1
+Text HLabel 4200 3250 0    50   Input ~ 0
+in2
 $EndSCHEMATC
